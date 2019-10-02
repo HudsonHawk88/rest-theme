@@ -14,16 +14,16 @@ class NavBar extends React.Component {
         </NavItem>
         <Navbar>
           <NavItem>
-            <NavLink to="/">Főoldal</NavLink>
+            <a href="#">Főoldal</a>
           </NavItem>
           <NavItem>
-            <NavLink to="/szolgaltatasok">Szolgáltatások</NavLink>
+            <a href="#szolgaltatasok">Szolgáltatások</a>
           </NavItem>
           <NavItem>
-            <NavLink to="/etelek">Ételek</NavLink>
+            <a href="#etelek">Ételek</a>
           </NavItem>
           <NavItem>
-            <NavLink to="/rolunk">Rólunk</NavLink>
+            <a href="#rolunk">Rólunk</a>
           </NavItem>
         </Navbar>
       </React.Fragment>
